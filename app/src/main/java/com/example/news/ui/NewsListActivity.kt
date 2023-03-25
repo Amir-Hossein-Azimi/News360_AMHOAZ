@@ -21,6 +21,7 @@ class NewsListActivity : AppCompatActivity() , NewsListListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news_list)
         setRecyclerViewData()
+        val testVar :String
     }
 
     private fun setRecyclerViewData() {
